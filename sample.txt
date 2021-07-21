@@ -1,0 +1,17 @@
+useradd harshit
+mkdir /home/harshit/.ssh
+echo
+chown harshit:harshit -R /home/harshit/.ssh
+chmod 700 -R /home/harshit/.ssh
+usermod -a -G admins harshit
+chage -I -1 -m 0 -M 99999 -E -1 harshit
+echo "harshit created"
+\n
+useradd harshit
+mkdir /home/harshit/.ssh
+echo
+chown harshit:harshit -R /home/harshit/.ssh
+chmod 700 -R /home/harshit/.ssh
+usermod -a -G admins harshit
+chage -I -1 -m 0 -M 99999 -E -1 harshit
+echo "harshit created"
